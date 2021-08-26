@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wap-provisioningdoc>
+
+  <characteristic type="Profile">
+    <parm name="ProfileName" value="DefaultLauncher"/>
+    <characteristic version="4.2" type="AppMgr">
+      <parm name="Action" value="SetDefaultLauncher" />
+      <parm name="Package" value="com.android.launcher3" />
+    </characteristic>
+  </characteristic>
+
+  <characteristic type="Profile">
+    <parm name="ProfileName" value="EHSLauncher"/>
+    <characteristic version="4.2" type="AppMgr">
+      <parm name="Action" value="SetDefaultLauncher" />
+      <parm name="Package" value="com.symbol.enterprisehomescreen" />
+    </characteristic>
+  </characteristic>
+
+</wap-provisioningdoc>
